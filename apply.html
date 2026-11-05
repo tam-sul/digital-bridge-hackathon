@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Apply to the Accessibility Hackathon</title>
+<meta name="description" content="Application form for the Digital Bridge Accessibility Hackathon 2026. One question at a time, no time limit, works with a screen reader, by voice, in English and Amharic.">
+<link rel="icon" href="assets/db-square.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&family=Noto+Sans+Ethiopic:wght@400;600;800&display=swap">
+<link rel="stylesheet" href="site.css">
+<script>
+try {
+  var r = document.documentElement, s = localStorage;
+  if (s.getItem("db-size")) r.dataset.size = s.getItem("db-size");
+  if (s.getItem("db-contrast") === "high") r.dataset.contrast = "high";
+  if (s.getItem("db-motion") === "off") r.dataset.motion = "off";
+} catch (e) {}
+/* Where applications go. Leave empty while reviewing; paste the Apps Script web app URL before launch (see backend/README). */
+window.DB_CONFIG = { endpoint: "" };
+</script>
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to the form</a>
+
+<div class="access" role="region" aria-label="Make this page work for you">
+  <div class="wrap">
+    <p data-i18n="toolbar">Make this page work for you.</p>
+    <div class="btns">
+      <button class="tool" type="button" data-act="size" aria-pressed="false">Larger text</button><!-- label is set by site.js in the page language -->
+      <button class="tool" type="button" data-act="contrast" aria-pressed="false" data-i18n="contrast">High contrast</button>
+      <button class="tool" type="button" data-act="motion" aria-pressed="false" data-i18n="motion">Stop motion</button>
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button class="tool" type="button" data-lang="en" aria-pressed="true" lang="en">English</button>
+        <button class="tool" type="button" data-lang="am" aria-pressed="false" lang="am">አማርኛ</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="ALX Digital Bridge, back to the hackathon page"><img src="assets/db-lockup.png" alt="ALX, Digital Bridge" width="282" height="67"></a>
+    <nav class="main" aria-label="Back">
+      <ul><li><a href="index.html" data-i18n="back_home">Back to the hackathon page</a></li></ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="form-page" tabindex="-1">
+  <section>
+    <div class="wrap">
+      <p class="event" style="margin-bottom:0.5rem" data-i18n="kicker">Digital Bridge Accessibility Hackathon 2026</p>
+      <h1 style="font-size:clamp(1.8rem,4.5vw,2.8rem);margin-bottom:1.5rem" data-i18n="title">Apply</h1>
+      <p class="help" style="color:var(--muted);margin-bottom:2rem;max-width:60ch" data-i18n="intro">One question at a time. No time limit. Your answers are kept on this device until you send them, so you can stop and come back. Every text box has a button to answer by voice. Every question is required unless it says optional.</p>
+
+      <div class="progress" id="progress" hidden>
+        <span id="progress-text"></span>
+        <div class="bar" aria-hidden="true"><i id="progress-fill"></i></div>
+      </div>
+
+      <form id="form" novalidate>
+        <div id="step" class="q"></div>
+        <input class="hp" type="text" name="website" id="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="nav-row" id="nav">
+          <button class="btn ghost" type="button" id="back" data-i18n="back">Back</button>
+          <button class="btn mint" type="submit" id="next" data-i18n="next">Next</button>
+        </div>
+        <p class="saved" id="saved" aria-live="polite"></p>
+      </form>
+
+      <div id="done" hidden></div>
+      <p class="sr-only" id="announce" role="status" aria-live="polite" aria-atomic="true"></p>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <p data-i18n="privacy">What you write here is used only to run the hackathon, is seen only by the organising team, and is deleted after the event, under Ethiopia's Personal Data Protection Proclamation No. 1321/2024.</p>
+    <p><span data-i18n="questions">Questions:</span> <span class="sel">tsultun@alxafrica.com</span></p>
+  </div>
+</footer>
+
+<script src="site.js"></script>
+<script src="apply.js"></script>
+</body>
+</html>
