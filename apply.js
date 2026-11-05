@@ -65,7 +65,7 @@
       no: 'No',
       q_role: 'Who is applying?',
       o_role_team: 'A team of engineers',
-      s_role_team: 'ALX software engineering graduates or advanced learners, up to four people.',
+      s_role_team: 'Up to four people, or on your own. ALX graduates and learners first; others are welcome to apply.',
       o_role_codesigner: 'A co-designer',
       s_role_codesigner: 'You are blind, Deaf, have a disability, or have lived through displacement. You test with a team and are paid for your time.',
 
@@ -88,10 +88,26 @@
       q_members: 'Who else is on the team?',
       qh_members: 'Applying on your own, or with two or three? Leave the rest blank. Each track has 40 places for individuals, and we pair you into a team at the kick-off.',
       l_member2: 'Member 2, full name',
+      l_member2_phone: 'Member 2, phone number',
+      l_member2_email: 'Member 2, email address',
+      l_member2_aff: 'Member 2, ALX affiliation',
       l_member3: 'Member 3, full name',
+      l_member3_phone: 'Member 3, phone number',
+      l_member3_email: 'Member 3, email address',
+      l_member3_aff: 'Member 3, ALX affiliation',
       l_member4: 'Member 4, full name',
-      l_cohort: 'ALX programme or cohort',
-      h_cohort: 'For example, Software Engineering cohort 2024.',
+      l_member4_phone: 'Member 4, phone number',
+      l_member4_email: 'Member 4, email address',
+      l_member4_aff: 'Member 4, ALX affiliation',
+      l_lead_aff: 'Team lead, ALX affiliation',
+      choose: 'Choose one',
+      o_aff_graduate: 'ALX graduate',
+      o_aff_learner: 'Current ALX learner',
+      o_aff_started: 'Started an ALX programme, did not complete',
+      o_aff_neither: 'Not from ALX',
+      send_note: 'By pressing Send, you agree that ALX keeps these answers only to run the hackathon, shares them only with the organising team, and deletes them after the event (Personal Data Protection Proclamation No. 1321/2024).',
+      cap_left: '{t} team places and {i} individual places left.',
+      cap_full: 'Full. New applications go on the waiting list.',
       q_pitch: 'What will you build?',
       l_code_link: 'Link to code you have written',
       h_code_link: 'GitHub, GitLab or a live site. Any team member\'s work counts.',
@@ -220,7 +236,7 @@
       no: 'አይ',
       q_role: 'ማን ነው የሚያመለክተው?',
       o_role_team: 'የመሐንዲሶች ቡድን',
-      s_role_team: 'የALX ሶፍትዌር ምህንድስና ተመራቂዎች ወይም የላቁ ተማሪዎች፣ እስከ አራት ሰዎች።',
+      s_role_team: 'እስከ አራት ሰዎች፣ ወይም ብቻዎን። የALX ተመራቂዎች እና ተማሪዎች ቅድሚያ ያገኛሉ፤ ሌሎችም ማመልከት ይችላሉ።',
       o_role_codesigner: 'ተባባሪ ዲዛይነር',
       s_role_codesigner: 'ዓይነ ስውር፣ መስማት የተሳነዎት፣ አካል ጉዳት ያለብዎት፣ ወይም የስደት ልምድ ያለዎት ነዎት። ከቡድን ጋር ይፈትናሉ እና ለጊዜዎ ይከፈልዎታል።',
 
@@ -243,10 +259,26 @@
       q_members: 'በቡድኑ ውስጥ ሌላ ማን አለ?',
       qh_members: 'ብቻዎን ወይም ሁለት ወይም ሶስት ሆናችሁ ነው የምታመለክቱት? የቀረውን ባዶ ይተዉት። እያንዳንዱ ትራክ ለግለሰቦች 40 ቦታ አለው፣ በመክፈቻው ቀን ከቡድን ጋር እናገናኝዎታለን።',
       l_member2: 'አባል 2፣ ሙሉ ስም',
+      l_member2_phone: 'አባል 2፣ ስልክ ቁጥር',
+      l_member2_email: 'አባል 2፣ ኢሜይል አድራሻ',
+      l_member2_aff: 'አባል 2፣ ከALX ጋር ያለው ግንኙነት',
       l_member3: 'አባል 3፣ ሙሉ ስም',
+      l_member3_phone: 'አባል 3፣ ስልክ ቁጥር',
+      l_member3_email: 'አባል 3፣ ኢሜይል አድራሻ',
+      l_member3_aff: 'አባል 3፣ ከALX ጋር ያለው ግንኙነት',
       l_member4: 'አባል 4፣ ሙሉ ስም',
-      l_cohort: 'የALX ፕሮግራም ወይም ኮሆርት',
-      h_cohort: 'ለምሳሌ፣ ሶፍትዌር ምህንድስና ኮሆርት 2024።',
+      l_member4_phone: 'አባል 4፣ ስልክ ቁጥር',
+      l_member4_email: 'አባል 4፣ ኢሜይል አድራሻ',
+      l_member4_aff: 'አባል 4፣ ከALX ጋር ያለው ግንኙነት',
+      l_lead_aff: 'የቡድን መሪ፣ ከALX ጋር ያለው ግንኙነት',
+      choose: 'አንዱን ይምረጡ',
+      o_aff_graduate: 'የALX ተመራቂ',
+      o_aff_learner: 'አሁን የALX ተማሪ',
+      o_aff_started: 'የALX ፕሮግራም ጀምሮ ያላጠናቀቀ',
+      o_aff_neither: 'ከALX አይደለም',
+      send_note: '"ላክ" በመጫን፣ ALX እነዚህን መልሶች ሃካቶኑን ለማካሄድ ብቻ እንዲያስቀምጥ፣ ለአዘጋጅ ቡድኑ ብቻ እንዲያካፍል፣ እና ከዝግጅቱ በኋላ እንዲሰርዝ ይስማማሉ (የግል መረጃ ጥበቃ አዋጅ ቁጥር 1321/2024)።',
+      cap_left: '{t} የቡድን ቦታዎች እና {i} የግለሰብ ቦታዎች ቀርተዋል።',
+      cap_full: 'ሞልቷል። አዲስ ማመልከቻዎች በመጠባበቂያ ዝርዝር ላይ ይቀመጣሉ።',
       q_pitch: 'ምን ይገነባሉ?',
       l_code_link: 'የጻፉት ኮድ አገናኝ',
       h_code_link: 'GitHub፣ GitLab ወይም የቀጥታ ድረ ገጽ። የማንኛውም የቡድን አባል ሥራ ይቆጠራል።',
@@ -327,31 +359,34 @@
   function radio(name, values, o) { return assign({ name: name, type: 'radio', required: true, values: values }, o); }
   function checks(name, values, o) { return assign({ name: name, type: 'checks', required: true, values: values }, o); }
   function consent(name) { return { name: name, type: 'consent', required: true }; }
+  function select(name, values, o) { return assign({ name: name, type: 'select', required: true, values: values, voice: false }, o); }
   function assign(a, b) { for (var k in b) if (Object.prototype.hasOwnProperty.call(b, k)) a[k] = b[k]; return a; }
 
   var YN = ['yes', 'no'];
+  var AFF = ['graduate', 'learner', 'started', 'neither'];
+  var LIMITS = { teams: 30, individuals: 40 };
   var ACCESS = ['ethsl', 'screenreader', 'stepfree', 'quiet', 'other', 'none'];
   var accessStep = { title: 'q_access', help: 'qh_access', fields: [
     checks('access_needs', ACCESS),
     text('access_other', { required: false })
   ] };
+  function member(n) {
+    return [
+      text('member' + n, { required: false, autocomplete: 'off' }),
+      text('member' + n + '_phone', { type: 'tel', required: false }),
+      text('member' + n + '_email', { type: 'email', required: false }),
+      select('member' + n + '_aff', AFF, { optKey: 'aff', required: false })
+    ];
+  }
 
+  /* Team form after Heaven's review (ALX, 5 Nov): four screens, no pitch, no availability, no access screen,
+     no consent screen; consent is the line under the Send button. */
   var STEPS = {
     team: [
       { title: 'q_track', help: 'qh_track', fields: [radio('track', ['t1', 't2', 't3'], { label: 'q_track', bare: true })] },
-      { title: 'q_names', fields: [text('team_name', { autocomplete: 'organization' }), text('lead_name', { autocomplete: 'name' })] },
+      { title: 'q_names', fields: [text('team_name', { autocomplete: 'organization' }), text('lead_name', { autocomplete: 'name' }), select('lead_aff', AFF, { optKey: 'aff' })] },
       { title: 'q_contact_team', fields: [text('phone', { type: 'tel' }), text('email', { type: 'email' })] },
-      { title: 'q_members', help: 'qh_members', fields: [
-        text('member2', { required: false }), text('member3', { required: false }), text('member4', { required: false }), text('cohort')
-      ] },
-      { title: 'q_pitch', fields: [
-        text('code_link', { type: 'url', required: false }),
-        text('pitch', { type: 'textarea', max: PITCH_MAX }),
-        radio('sr_before', ['yes', 'learning'])
-      ] },
-      { title: 'q_avail', fields: [radio('can_train', YN, { label: 'l_can_train_team' }), radio('can_days', YN, { label: 'l_can_days_team' })] },
-      accessStep,
-      { title: 'q_consent_team', fields: [consent('consent_data'), consent('consent_licence')] }
+      { title: 'q_members', help: 'qh_members', fields: member(2).concat(member(3), member(4)) }
     ],
     codesigner: [
       { title: 'q_name_cd', help: 'qh_name_cd', fields: [text('full_name', { autocomplete: 'name' }), text('city', { autocomplete: 'address-level2' })] },
@@ -361,8 +396,7 @@
       { title: 'q_languages', help: 'qh_languages', fields: [checks('languages', ['am', 'en', 'ti', 'om', 'so', 'ar', 'ethsl'])] },
       { title: 'q_referred', fields: [radio('referred', ['aaapd', 'tib', 'alx', 'other']), radio('also_codes', YN)] },
       { title: 'q_avail', fields: [radio('can_train', YN, { label: 'l_can_train_cd' }), radio('can_days', YN, { label: 'l_can_days_cd' })] },
-      accessStep,
-      { title: 'q_consent_cd', fields: [consent('consent_data')] }
+      accessStep
     ]
   };
 
@@ -377,6 +411,7 @@
     var S = T[lang] || T.en;
     if (field.type === 'consent') return value === true ? '' : S.err_consent;
     if (field.type === 'radio') return value ? '' : S.err_choose;
+    if (field.type === 'select') return value || !field.required ? '' : S.err_choose;
     if (field.type === 'checks') return (Array.isArray(value) && value.length) || !field.required ? '' : S.err_choose_some;
     var v = String(value == null ? '' : value).trim();
     if (!v) return field.required ? S.err_required : '';
@@ -395,10 +430,11 @@
       else if (f.type === 'consent') out[f.name] = v === true;
       else out[f.name] = String(v == null ? '' : v).trim();
     });
+    out.consent_data = true;   /* given by pressing Send under the data-protection line */
     return { role: role, lang: lang, submittedAt: new Date().toISOString(), website: '', answers: out };
   }
 
-  window.DBApply = { validateField: validateField, buildPayload: buildPayload, STEPS: STEPS };
+  window.DBApply = { validateField: validateField, buildPayload: buildPayload, STEPS: STEPS, LIMITS: LIMITS };
 
   /* ---------- DOM ---------- */
   if (!document.getElementById('form')) return;
@@ -411,7 +447,7 @@
   var params = new URLSearchParams(location.search);
 
   var state = {
-    role: null, askedRole: false, lang: 'en', step: 0, answers: {}, sendError: false, busy: false
+    role: null, askedRole: false, lang: 'en', step: 0, answers: {}, sendError: false, busy: false, capacity: null
   };
 
   function t(key) { var S = T[state.lang] || T.en; return S[key] != null ? S[key] : (T.en[key] != null ? T.en[key] : ''); }
@@ -469,9 +505,28 @@
 
   /* field rendering */
   function labelOf(f) { return t(f.label || ('l_' + f.name)); }
-  function optionLabel(f, v) { return t('o_' + f.name + '_' + v) || t(v); }
-  function optionSub(f, v) { return has('s_' + f.name + '_' + v) ? t('s_' + f.name + '_' + v) : ''; }
+  function optionLabel(f, v) { return t('o_' + (f.optKey || f.name) + '_' + v) || t(v); }
+  function optionSub(f, v) {
+    var base = has('s_' + f.name + '_' + v) ? t('s_' + f.name + '_' + v) : '';
+    if (f.name === 'track' && state.capacity && state.capacity[v]) {
+      var c = state.capacity[v], tl = Math.max(0, LIMITS.teams - (c.teams | 0)), il = Math.max(0, LIMITS.individuals - (c.individuals | 0));
+      base += (base ? ' ' : '') + (tl === 0 && il === 0 ? t('cap_full') : fmt('cap_left', { t: tl, i: il }));
+    }
+    return base;
+  }
   function fieldId(name) { return 'f-' + name; }
+
+  function renderSelect(f) {
+    var id = fieldId(f.name), descr = ['err-' + f.name];
+    var label = el('label', { 'for': id }, [labelOf(f), f.required ? null : ' ', f.required ? null : el('span', { 'class': 'hint', text: t('optional') })]);
+    var sel = el('select', { id: id, name: f.name, 'aria-describedby': descr.join(' ') });
+    sel.appendChild(el('option', { value: '', text: t('choose') }));
+    f.values.forEach(function (v) { sel.appendChild(el('option', { value: v, text: optionLabel(f, v) })); });
+    sel.value = state.answers[f.name] || '';
+    sel.dataset.field = f.name;
+    if (f.required) sel.setAttribute('aria-required', 'true');
+    return el('div', { 'class': 'field' }, [label, sel, el('p', { 'class': 'err', id: 'err-' + f.name })]);
+  }
 
   function renderText(f) {
     var id = fieldId(f.name), hintKey = 'h_' + f.name, descr = [];
@@ -537,6 +592,7 @@
   function renderField(f) {
     if (f.type === 'radio' || f.type === 'checks') return renderGroup(f);
     if (f.type === 'consent') return renderConsent(f);
+    if (f.type === 'select') return renderSelect(f);
     return renderText(f);
   }
 
@@ -577,6 +633,7 @@
       stepEl.appendChild(heading(t('review_title')));
       stepEl.appendChild(el('p', { 'class': 'help', text: t('review_help') }));
       stepEl.appendChild(renderReview());
+      stepEl.appendChild(el('p', { 'class': 'hint', id: 'send-note', text: t('send_note') }));
       if (state.sendError) {
         var errP = el('p', { 'class': 'err', 'data-show': '1', id: 'send-err', tabindex: '-1', text: t('fail') });
         stepEl.appendChild(errP);
@@ -594,7 +651,7 @@
   function displayValue(f) {
     var v = state.answers[f.name];
     if (f.type === 'consent') return v === true ? t('yes') : '';
-    if (f.type === 'radio') return v ? optionLabel(f, v) : '';
+    if (f.type === 'radio' || f.type === 'select') return v ? optionLabel(f, v) : '';
     if (f.type === 'checks') return (v || []).map(function (x) { return optionLabel(f, x); }).join(', ');
     return String(v || '').trim();
   }
@@ -808,9 +865,21 @@
     render(state.askedRole);
   }
 
+  /* places left per track, numbers only; the form works without it */
+  function loadCapacity() {
+    var endpoint = String((window.DB_CONFIG && window.DB_CONFIG.endpoint) || '').trim();
+    if (!endpoint || !window.fetch) return;
+    fetch(endpoint + '?view=capacity').then(function (r) { return r.json(); }).then(function (c) {
+      if (!c || typeof c !== 'object') return;
+      state.capacity = c;
+      if (state.role === 'team' && state.step === 0) render(false);
+    }).catch(function () {});
+  }
+
   /* boot */
   setLang(params.get('lang') || read('db-lang') || 'en', false);
   var urlRole = params.get('role');
   if (!STEPS[urlRole]) state.askedRole = true;
   startRole(urlRole);
+  loadCapacity();
 })();
