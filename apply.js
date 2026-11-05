@@ -5,7 +5,7 @@
 (function () {
   'use strict';
 
-  var CONTACT = 'tsultun@alxafrica.com';
+  var CONTACT = 'hyoun@alxafrica.com';
   var PITCH_MAX = 1200;
 
   /* ---------- strings ---------- */
