@@ -233,7 +233,15 @@ nav.main a:hover { text-decoration: underline; }
 .hero-row > * { min-width: 0; }
 @media (min-width: 60rem) { .hero-row { grid-template-columns: minmax(0, 1fr) auto; } }
 .hero .lede { font-size: clamp(1.1rem, 1.7vw, 1.3rem); max-width: 56ch; color: var(--muted); }
-.hero .signed { font-size: 0.95rem; color: var(--muted); max-width: 110ch; }
+.hero .signed { font-size: 0.95rem; color: var(--muted); max-width: 70ch; }
+.signed-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem 2.5rem; }
+.signed-row > * { min-width: 0; }
+.partner-logos { list-style: none; margin: 0; padding: 0; display: flex; align-items: center; gap: 1.75rem; }
+.partner-logos li { margin: 0; display: flex; align-items: center; }
+.partner-logos img { height: 50px; width: auto; display: block; }
+.partner-logos img[alt="Mercy Corps"] { border-radius: 4px; }
+:root[data-contrast="high"] .partner-logos img, :root[data-theme="dark"] .partner-logos img { background: #fff; padding: 4px; border-radius: 4px; box-sizing: content-box; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .partner-logos img { background: #fff; padding: 4px; border-radius: 4px; box-sizing: content-box; } }
 .cta { display: flex; flex-wrap: wrap; gap: 0.75rem; }
 .facts {
   list-style: none; padding: 0; margin: 0.5rem 0 0;
