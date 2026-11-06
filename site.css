@@ -266,7 +266,7 @@ nav.main a:hover { text-decoration: underline; }
 #am h2 { font-size: clamp(1.4rem, 2.6vw, 1.9rem); }
 #am .am { max-width: 70ch; line-height: 1.75; }
 
-/* ----- the navy band: why, then the three tracks ----- */
+/* ----- the navy band (quote and why), then the three tracks on their own light block ----- */
 .band { background: var(--band); color: var(--band-fg); }
 section.band + section.band { border-top: 0; padding-top: 0; margin-top: -1px; }
 .band h2, .band h3 { color: var(--band-fg); }
@@ -301,20 +301,21 @@ section.band + section.band { border-top: 0; padding-top: 0; margin-top: -1px; }
 .two-col { display: grid; gap: 1.25rem 2.5rem; }
 @media (min-width: 60rem) { .two-col { grid-template-columns: 1fr 1fr; } }
 
+.tracks { background: var(--paper-2); }
 .tracks .split h2 { font-size: clamp(1.6rem, 3vw, 2.3rem); max-width: 14ch; }
 .tracks .intro { max-width: 64ch; }
 .track-list { display: grid; gap: 2.5rem; margin-top: clamp(2.5rem, 5vw, 3.5rem); }
 @media (min-width: 60rem) { .track-list { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2.5rem; } }
-.track { display: flex; flex-direction: column; gap: 0.85rem; border-top: 2px solid var(--band-fg); padding-top: 1.25rem; min-width: 0; }
+.track { display: flex; flex-direction: column; gap: 0.85rem; border-top: 2px solid var(--ink); padding-top: 1.25rem; min-width: 0; }
 .track h3 { font-size: clamp(1.35rem, 2vw, 1.6rem); line-height: 1.15; }
 .t-num { display: block; font-size: 1rem; font-weight: 600; letter-spacing: 0; margin-bottom: 0.35rem; }
-.track .for { color: var(--band-fg); font-weight: 500; }
+.track .for { color: var(--ink); font-weight: 500; }
 .track .build { margin-top: 0.25rem; }
 .track details:first-of-type { margin-top: 0.5rem; }
 .track ul { padding-left: 1.1em; }
 .track .body { display: grid; gap: 0.75rem; font-size: 1rem; }
 
-.savanna { margin-top: clamp(2.5rem, 5vw, 3.5rem); padding-top: 1.5rem; border-top: 1px solid rgba(255, 255, 255, 0.3); }
+.savanna { margin-top: clamp(2.5rem, 5vw, 3.5rem); padding-top: 1.5rem; border-top: 1px solid var(--line); }
 .savanna h3 { font-size: 1.25rem; }
 .savanna p { max-width: 72ch; }
 
