@@ -5,7 +5,7 @@
 (function () {
   'use strict';
 
-  var CONTACT = 'hyoun@alxafrica.com';
+  var CONTACT = 'ethiopia@alxafrica.com';
   var PITCH_MAX = 1200;
 
   /* ---------- strings ---------- */
@@ -86,7 +86,7 @@
       h_phone: 'We call, or send a WhatsApp or Telegram message, to this number.',
       l_email: 'Email address',
       q_members: 'Who else is on the team?',
-      qh_members: 'Applying on your own, or with two or three? Leave the rest blank. Each track has 40 places for individuals, and we pair you into a team at the kick-off.',
+      qh_members: 'Applying on your own, or with two or three? Leave the rest blank. If you add a member, give their phone, email and ALX affiliation too. Each track has 40 places for individuals, and we pair you into a team at the kick-off.',
       l_member2: 'Member 2, full name',
       l_member2_phone: 'Member 2, phone number',
       l_member2_email: 'Member 2, email address',
@@ -121,8 +121,8 @@
       q_avail: 'Can you be there?',
       l_can_train_team: 'Can your whole team join the online training evenings, Monday 9 to Friday 13 November, 19:00 to 20:30? They are required.',
       l_can_train_cd: 'Can you join the online training evenings, Monday 9 to Friday 13 November, 19:00 to 20:30? They are required.',
-      l_can_days_team: 'Can your whole team be at ALX Tech Hub Lideta on Saturday 14 and Sunday 15 November, 08:30 to 18:00?',
-      l_can_days_cd: 'Can you be at ALX Tech Hub Lideta on Saturday 14 and Sunday 15 November, 08:30 to 18:00?',
+      l_can_days_team: 'Can your whole team be at ALX Tech Hub Lideta on Saturday 14 and Sunday 15 November, 09:00 to 17:00?',
+      l_can_days_cd: 'Can you be at ALX Tech Hub Lideta on Saturday 14 and Sunday 15 November, 09:00 to 17:00?',
       q_access: 'What do you need to take part?',
       qh_access: 'Private. No proof is needed. Tick all that apply.',
       l_access_needs: 'I need',
@@ -257,7 +257,7 @@
       h_phone: 'በዚህ ቁጥር እንደውላለን፣ ወይም በዋትስአፕ ወይም በቴሌግራም መልዕክት እንልካለን።',
       l_email: 'ኢሜይል አድራሻ',
       q_members: 'በቡድኑ ውስጥ ሌላ ማን አለ?',
-      qh_members: 'ብቻዎን ወይም ሁለት ወይም ሶስት ሆናችሁ ነው የምታመለክቱት? የቀረውን ባዶ ይተዉት። እያንዳንዱ ትራክ ለግለሰቦች 40 ቦታ አለው፣ በመክፈቻው ቀን ከቡድን ጋር እናገናኝዎታለን።',
+      qh_members: 'ብቻዎን ወይም ሁለት ወይም ሶስት ሆናችሁ ነው የምታመለክቱት? የቀረውን ባዶ ይተዉት። አባል ካከሉ፣ ስልክ ቁጥራቸውን፣ ኢሜይላቸውን እና ከALX ጋር ያላቸውን ግንኙነት ይሙሉ። እያንዳንዱ ትራክ ለግለሰቦች 40 ቦታ አለው፣ በመክፈቻው ቀን ከቡድን ጋር እናገናኝዎታለን።',
       l_member2: 'አባል 2፣ ሙሉ ስም',
       l_member2_phone: 'አባል 2፣ ስልክ ቁጥር',
       l_member2_email: 'አባል 2፣ ኢሜይል አድራሻ',
@@ -292,8 +292,8 @@
       q_avail: 'መገኘት ይችላሉ?',
       l_can_train_team: 'ሙሉ ቡድንዎ በመስመር ላይ የስልጠና ምሽቶች፣ ከሰኞ ጥቅምት 30 እስከ አርብ ህዳር 4 (ኖቬምበር 9 እስከ 13)፣ ከምሽቱ 1:00 እስከ 2:30 (19:00 እስከ 20:30) መሳተፍ ይችላል? ግዴታ ናቸው።',
       l_can_train_cd: 'በመስመር ላይ የስልጠና ምሽቶች፣ ከሰኞ ጥቅምት 30 እስከ አርብ ህዳር 4 (ኖቬምበር 9 እስከ 13)፣ ከምሽቱ 1:00 እስከ 2:30 (19:00 እስከ 20:30) መሳተፍ ይችላሉ? ግዴታ ናቸው።',
-      l_can_days_team: 'ሙሉ ቡድንዎ ቅዳሜ ህዳር 5 እና እሁድ ህዳር 6 (ኖቬምበር 14 እና 15)፣ ከጠዋቱ 2:30 እስከ ምሽቱ 12:00 (08:30 እስከ 18:00) በALX ቴክ ሀብ ልደታ መገኘት ይችላል?',
-      l_can_days_cd: 'ቅዳሜ ህዳር 5 እና እሁድ ህዳር 6 (ኖቬምበር 14 እና 15)፣ ከጠዋቱ 2:30 እስከ ምሽቱ 12:00 (08:30 እስከ 18:00) በALX ቴክ ሀብ ልደታ መገኘት ይችላሉ?',
+      l_can_days_team: 'ሙሉ ቡድንዎ ቅዳሜ ህዳር 5 እና እሁድ ህዳር 6 (ኖቬምበር 14 እና 15)፣ ከጠዋቱ 3:00 እስከ ምሽቱ 11:00 (09:00 እስከ 17:00) በALX ቴክ ሀብ ልደታ መገኘት ይችላል?',
+      l_can_days_cd: 'ቅዳሜ ህዳር 5 እና እሁድ ህዳር 6 (ኖቬምበር 14 እና 15)፣ ከጠዋቱ 3:00 እስከ ምሽቱ 11:00 (09:00 እስከ 17:00) በALX ቴክ ሀብ ልደታ መገኘት ይችላሉ?',
       q_access: 'ለመሳተፍ ምን ያስፈልግዎታል?',
       qh_access: 'የግል ነው። ማስረጃ አያስፈልግም። የሚመለከትዎትን ሁሉ ምልክት ያድርጉ።',
       l_access_needs: 'የሚያስፈልገኝ',
@@ -373,9 +373,9 @@
   function member(n) {
     return [
       text('member' + n, { required: false, autocomplete: 'off' }),
-      text('member' + n + '_phone', { type: 'tel', required: false }),
-      text('member' + n + '_email', { type: 'email', required: false }),
-      select('member' + n + '_aff', AFF, { optKey: 'aff', required: false })
+      text('member' + n + '_phone', { type: 'tel', required: false, requiredIf: 'member' + n }),
+      text('member' + n + '_email', { type: 'email', required: false, requiredIf: 'member' + n }),
+      select('member' + n + '_aff', AFF, { optKey: 'aff', required: false, requiredIf: 'member' + n })
     ];
   }
 
@@ -407,14 +407,19 @@
   }
 
   /* ---------- pure helpers ---------- */
-  function validateField(field, value, lang) {
-    var S = T[lang] || T.en;
+  function isRequired(field, answers) {
+    if (field.required) return true;
+    /* member phone, email and affiliation are required once that member's name is given */
+    return !!(field.requiredIf && answers && String(answers[field.requiredIf] == null ? '' : answers[field.requiredIf]).trim());
+  }
+  function validateField(field, value, lang, answers) {
+    var S = T[lang] || T.en, required = isRequired(field, answers);
     if (field.type === 'consent') return value === true ? '' : S.err_consent;
     if (field.type === 'radio') return value ? '' : S.err_choose;
-    if (field.type === 'select') return value || !field.required ? '' : S.err_choose;
-    if (field.type === 'checks') return (Array.isArray(value) && value.length) || !field.required ? '' : S.err_choose_some;
+    if (field.type === 'select') return value || !required ? '' : S.err_choose;
+    if (field.type === 'checks') return (Array.isArray(value) && value.length) || !required ? '' : S.err_choose_some;
     var v = String(value == null ? '' : value).trim();
-    if (!v) return field.required ? S.err_required : '';
+    if (!v) return required ? S.err_required : '';
     if (field.type === 'tel' && v.replace(/\D/g, '').length < 9) return S.err_phone;
     if (field.type === 'email' && (v.indexOf('@') < 0 || v.indexOf('.') < 0)) return S.err_email;
     if (field.type === 'url' && !/^(https?:\/\/)?\S+\.\S+$/i.test(v)) return S.err_url;
@@ -518,7 +523,7 @@
 
   function renderSelect(f) {
     var id = fieldId(f.name), descr = ['err-' + f.name];
-    var label = el('label', { 'for': id }, [labelOf(f), f.required ? null : ' ', f.required ? null : el('span', { 'class': 'hint', text: t('optional') })]);
+    var label = el('label', { 'for': id }, [labelOf(f), f.required || f.requiredIf ? null : ' ', f.required || f.requiredIf ? null : el('span', { 'class': 'hint', text: t('optional') })]);
     var sel = el('select', { id: id, name: f.name, 'aria-describedby': descr.join(' ') });
     sel.appendChild(el('option', { value: '', text: t('choose') }));
     f.values.forEach(function (v) { sel.appendChild(el('option', { value: v, text: optionLabel(f, v) })); });
@@ -530,7 +535,7 @@
 
   function renderText(f) {
     var id = fieldId(f.name), hintKey = 'h_' + f.name, descr = [];
-    var label = el('label', { 'for': id }, [labelOf(f), f.required ? null : ' ', f.required ? null : el('span', { 'class': 'hint', text: t('optional') })]);
+    var label = el('label', { 'for': id }, [labelOf(f), f.required || f.requiredIf ? null : ' ', f.required || f.requiredIf ? null : el('span', { 'class': 'hint', text: t('optional') })]);
     var kids = [label];
     if (has(hintKey)) { kids.push(el('p', { 'class': 'hint', id: 'hint-' + f.name, text: t(hintKey) })); descr.push('hint-' + f.name); }
     descr.push('err-' + f.name);
@@ -733,7 +738,7 @@
     var bad = [], onScreen = i === state.step;
     steps()[i].fields.forEach(function (f) {
       if (onScreen) state.answers[f.name] = readField(f);
-      var msg = validateField(f, state.answers[f.name], state.lang);
+      var msg = validateField(f, state.answers[f.name], state.lang, state.answers);
       if (msg) bad.push({ f: f, msg: msg });
     });
     return bad;

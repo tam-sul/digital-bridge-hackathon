@@ -243,6 +243,7 @@ nav.main a:hover { text-decoration: underline; }
 :root[data-contrast="high"] .partner-logos img, :root[data-theme="dark"] .partner-logos img { background: #fff; padding: 4px; border-radius: 4px; box-sizing: content-box; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .partner-logos img { background: #fff; padding: 4px; border-radius: 4px; box-sizing: content-box; } }
 .cta { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+.cta .tg { flex-basis: 100%; font-weight: 600; text-decoration: underline; text-underline-offset: 0.2em; color: var(--ink); }
 .facts {
   list-style: none; padding: 0; margin: 0.5rem 0 0;
   display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem 1.5rem;

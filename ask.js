@@ -44,7 +44,7 @@
     say('Sending your question.');
     fetch(endpoint, { method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'text/plain' }, body: JSON.stringify(payload) })
       .then(function () { say('Thank you. Your question was sent. Answers appear on this page within a day.'); form.reset(); })
-      .catch(function () { say('The question could not be sent. Check your connection and try again, or write to hyoun@alxafrica.com.'); })
+      .catch(function () { say('The question could not be sent. Check your connection and try again, or write to ethiopia@alxafrica.com.'); })
       .then(function () { send.removeAttribute('aria-disabled'); });
   });
 })();
