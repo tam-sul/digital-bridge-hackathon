@@ -364,7 +364,7 @@
 
   var YN = ['yes', 'no'];
   var AFF = ['graduate', 'learner', 'started', 'neither'];
-  var LIMITS = { teams: 30, individuals: 40 };
+  var LIMITS = { teams: 50, individuals: 40 };
   var ACCESS = ['ethsl', 'screenreader', 'stepfree', 'quiet', 'other', 'none'];
   var accessStep = { title: 'q_access', help: 'qh_access', fields: [
     checks('access_needs', ACCESS),
